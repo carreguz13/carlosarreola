@@ -29,7 +29,7 @@ function Contact() {
     
      </div>
 
-     <input type="hidden" name="_next" value="http://localhost:3001"/>
+     <input type="hidden" name="_next" value="https://carlosarreola.me"/>
      <input type="hidden" name="_captcha" value="false"/>
 
 </form>

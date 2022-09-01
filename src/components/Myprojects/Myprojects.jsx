@@ -15,7 +15,7 @@ function Myprojects() {
       <h2>A selection of my best projects.</h2>
 
       <div className='img-box'>
-       <a className='primera' href="http://localhost:3000/" target="_blanck">  <img src={imgpro1} alt="" />  </a>
+       <a className='primera' href="https://carlosarreola.me" target="_blanck">  <img src={imgpro1} alt="" />  </a>
        <a className='segunda' href="https://sailingmazatlan.com/" target="_blanck">  <img src={imgpro2} alt="" />  </a>
       
 

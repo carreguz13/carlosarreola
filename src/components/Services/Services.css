@@ -206,7 +206,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .parrafo2 i {
-   color: rgb(5, 151, 0);
+   color: rgb(255, 166, 0);
    font-size: 20px;
    padding: 0px;
    margin: 5px 10px 0px 0px;
@@ -266,10 +266,11 @@ font-family: 'Poppins', sans-serif;
 }
 
 .parrafo3 i {
-   color: rgb(255, 0, 0);
+   color: rgb(255, 166, 0);
    font-size: 20px;
    padding: 0px;
    margin: 5px 10px 0px 0px;
+  
 }
 
 .parrafo3 p {

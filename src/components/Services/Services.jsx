@@ -43,7 +43,7 @@ function Services() {
 
         <div className='parrafo3' >
           <div className='top3' >
-        <i class="fa-solid fa-heart"/>
+        <i class="fa-solid fa-headphones"/>
         <div>
         <h1>Exceptional Communication Skills</h1>
         </div>

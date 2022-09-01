@@ -1,5 +1,5 @@
 {
-  "homepage": "https://carreguz13.github.io/carlosarreola",
+  "homepage": "http://carlosarreola.me",
   "name": "carlosarreola",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build && echo ¨carlosarreola.me¨ > ./build/CNAME",
+    "predeploy": "npm run build && echo carlosarreola.me > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

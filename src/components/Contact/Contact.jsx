@@ -8,7 +8,7 @@ function Contact() {
       <h1>Contact</h1>
       <h2> Let´s work toguether!</h2>
 
-<form className='formbox'  action="https://formsubmit.co/0b0712c1f5c2cfb3395df0d7b088fcce" method="POST" >
+<form className='formbox'  action="https://formsubmit.co/carreguz13@gmail.com" method="POST" >
    <div className='inputsbox'>
 
      <label className='l' htmlFor="name" >Name:</label>

@@ -32,12 +32,12 @@ function Services() {
           <div className='top2' >
         <i class="fa-solid fa-people-group"/>
         <div>
-        <h1>Team Work</h1>
+        <h1>Dedicated Team Member</h1>
         </div>
         </div>
 
         <div className='down2' >
-          <p>Passion to collaborated with product team members to implement new feature developments.</p>
+          <p>Highly adaptable, flexible professional who embraces teamwork, a Goal-Oriented Team member that is always looking to help others.</p>
         </div>
         </div>
 
@@ -45,12 +45,12 @@ function Services() {
           <div className='top3' >
         <i class="fa-solid fa-heart"/>
         <div>
-        <h1>CSS Lover</h1>
+        <h1>Exceptional Communication Skills</h1>
         </div>
         </div>
 
         <div className='down3' >
-          <p>Passion to collaborated with product team members to implement new feature developments.</p>
+          <p>Verbal, written, organizational and interpersonal communication skills naturally gravitate toward working with others. </p>
         </div>
         </div>
         

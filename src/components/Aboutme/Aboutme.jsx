@@ -26,12 +26,12 @@ function Aboutme() {
 
 <div className='caja2'>
 <div className='box3'>
-    <h3>Education</h3>
-    <p>lorem impusufhwbf dhfbfgfdlbf fdghfdbfygdbf dfgdsyfgdghvytg</p>
+    <h3>Skills</h3>
+    <p>Adaptability, problem-solving, teamwork, creativity, work ethic, quicklearner and responsible</p>
     </div>
 <div className='box4'>
-    <h3>Music & Games</h3>
-    <p>lorem impusufhwbf dhfbfgfdlbf fdghfdbfygdbf dfgdsyfgdghvytg</p>
+    <h3>Passions</h3>
+    <p>Getting great results from what I share, learning something new every day, empowering or helping others discover what they have within themselves to help themselves</p>
     </div>
 
     </div>

@@ -15,11 +15,11 @@ function Aboutme() {
 
 <div className='box1'>
     <h3>Education</h3>
-    <p>lorem impusufhwbf dhfbfgfdlbf fdghfdbfygdbf dfgdsyfgdghvytg</p>
+    <p>Bachelor degree in Mechatronic engineering, deeply in love with web development</p>
 </div>
 <div className='box2'>
     <h3>Music & Games</h3>
-    <p>lorem impusufhwbf dhfbfgfdlbf fdghfdbfygdbf dfgdsyfgdghvytg</p>
+    <p>I can enjoy any kind of music, the same with sports but my favorite one it´s basketball</p>
     </div>
 
     </div>

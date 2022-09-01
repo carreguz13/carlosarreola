@@ -1,0 +1,358 @@
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin: 0px;
+padding: 0px; 
+width: 100%;
+height: 720px;
+background: linear-gradient(to right, #000, rgb(4, 8, 44));
+}
+
+
+.aboutme-container h1{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0 0 10px 0;
+    animation: flicker80 1.5s infinite alternate;
+    animation-delay: .3s;
+    
+ }
+ 
+    @keyframes flicker80 {
+       0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+                                     0 0 1px #fff,
+                                     0 0 1px #fff,
+                                     0 0 1px #fff,
+                                     0 0 1px #ffee00,
+                                     0 0 1px #ffee00,
+                                     0 0 20px #ffee00,
+                                     0 0 5px #ffee00,
+                                     0 0 9px #ffee00;
+
+                                  }
+                                  20%, 24%, 55% {        
+                                      text-shadow: none;
+                                  }   
+                              
+ }
+
+ .aboutme-container h2 {
+    font-size: 60px;
+    color: #fff;
+ margin: 0;
+ }
+
+
+ .photos-boxes-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 50px 100px 0 100px;
+   
+ }
+
+
+ .boxes-box {
+    
+    width: 70%;
+    margin: 0;
+    padding: 0;
+ }
+
+ .photo-box {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 30%;
+padding-left: 70px;
+}
+
+
+ .photos-boxes-box Img {
+   width: 100%;
+   height: auto;
+   margin: 0px 0 0 0;
+ }
+
+
+ .caja1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 30px 0;
+
+ } 
+
+
+ .boxes-box .box1 p {
+    font-weight: 600;
+    color: #fff;
+margin: 0;
+padding: 0 0 20px 0;
+font-size: 18px;
+ }
+
+ .boxes-box .box1 h3 {
+   font-family: 'Poppins', sans-serif;
+    
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 15px 0 15px 0 ;
+    text-shadow:0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 1px rgb(251, 255, 0),
+    0 0 1px rgb(251, 255, 0),
+    0 0 20px rgb(251, 255, 0),
+    0 0 5px rgb(251, 255, 0),
+    0 0 9px rgb(251, 255, 0);
+    
+ }
+ 
+    
+      
+  
+
+
+ .boxes-box .box1 {
+  text-align: center;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+   border-color: rgb(226, 226, 226);
+ 
+   border-width: 2px;
+   border-style: solid;
+
+   transition: 0.2s;
+   
+   box-shadow:
+   0 0 8px #fff,
+   inset 0 0 8px #fff,
+   0 0 32px rgb(0, 38, 255),
+   inset 0 0 32px rgb(0, 38, 255),
+   0 0 64px rgb(0, 38, 255),
+   inset 0 0 20px rgb(0, 38, 255);        
+   }    
+   .parrafo1::-moz-selection {
+background-color: rgb(0, 38, 255);  
+   }
+   .parrafo1::selection {
+background-color: rgb(0, 38, 255);
+   }
+   .parrafo1:focus {
+outline: none;
+   }
+
+
+   .boxes-box .box1:hover {
+   scale: 1.1;
+   cursor: default;
+}
+.boxes-box .box2:hover {
+   scale: 1.1;
+   cursor: default;
+}
+.boxes-box .box3:hover {
+   scale: 1.1;
+   cursor: default;
+}
+.boxes-box .box4:hover {
+   scale: 1.1;
+   cursor: default;
+}
+
+
+
+
+ .boxes-box .box2 p {
+    font-weight: 600;
+    color: #fff;
+margin: 0;
+padding: 0 0 20px 0;
+font-size: 18px;
+ }
+
+ .boxes-box .box2 h3 {
+   font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 15px 0 15px 0 ;
+    text-shadow:0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 1px rgb(255, 0, 242),
+    0 0 1px rgb(255, 0, 242),
+    0 0 20px rgb(255, 0, 242),
+    0 0 5px rgb(255, 0, 242),
+    0 0 9px rgb(255, 0, 242);
+    
+ }
+
+ .boxes-box .box2 {
+    text-align: center;
+      width: 45%;
+      margin: 0;
+      padding: 0;
+      border-radius: 10px;
+     border-color: rgb(226, 226, 226);
+     border-width: 2px;
+     border-style: solid;
+     transition: 0.2s;
+     box-shadow:
+     0 0 8px #fff,
+     inset 0 0 8px #fff,
+     0 0 32px rgb(0, 255, 13),
+     inset 0 0 32px rgb(0, 255, 13),
+     0 0 64px rgb(0, 255, 13),
+     inset 0 0 20px rgb(0, 255, 13);        
+     }    
+     .parrafo1::-moz-selection {
+  background-color: rgb(0, 255, 13);  
+     }
+     .parrafo1::selection {
+  background-color: rgb(0, 255, 13);
+     }
+     .parrafo1:focus {
+  outline: none;
+     }
+  
+  
+
+/*here is the secon row of the boxes in about me*/
+
+
+     .caja2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0 0 0;
+    
+     } 
+    
+    
+     .boxes-box .box3 p {
+        font-weight: 600;
+        color: #fff;
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-size: 18px;
+     }
+    
+     .boxes-box .box3 h3 {
+      font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 15px 0 15px 0 ;
+        text-shadow:0 0 1px #fff,
+        0 0 1px #fff,
+        0 0 1px #fff,
+        0 0 1px rgb(0, 38, 255),
+        0 0 1px rgb(0, 38, 255),
+        0 0 20px rgb(0, 38, 255),
+        0 0 5px rgb(0, 38, 255),
+        0 0 9px rgb(0, 38, 255);
+        
+     }
+     
+        
+          
+      
+    
+    
+     .boxes-box .box3 {
+      text-align: center;
+      transition: 0.2s;
+        width: 45%;
+        margin: 0;
+        padding: 0;
+        border-radius: 10px;
+       border-color: rgb(226, 226, 226);
+     
+       border-width: 2px;
+       border-style: solid;
+    
+       
+       
+       box-shadow:
+       0 0 8px #fff,
+       inset 0 0 8px #fff,
+       0 0 32px rgb(251, 255, 0),
+       inset 0 0 32px rgb(251, 255, 0),
+       0 0 64px rgb(251, 255, 0),
+       inset 0 0 20px rgb(251, 255, 0);        
+       }    
+       .parrafo1::-moz-selection {
+    background-color: rgb(251, 255, 0);  
+       }
+       .parrafo1::selection {
+    background-color: rgb(251, 255, 0);
+       }
+       .parrafo1:focus {
+    outline: none;
+       }
+    
+    
+    
+    
+     .boxes-box .box4 p {
+        font-weight: 600;
+        color: #fff;
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-size: 18px;
+     }
+    
+     .boxes-box .box4 h3 {
+      font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+       
+        color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 15px 0 15px 0 ;
+        text-shadow:0 0 1px #fff,
+        0 0 1px #fff,
+        0 0 1px #fff,
+        0 0 1px rgb(0, 255, 13),
+        0 0 1px rgb(0, 255, 13),
+        0 0 20px rgb(0, 255, 13),
+        0 0 5px rgb(0, 255, 13),
+        0 0 9px rgb(0, 255, 13);
+        
+     }
+    
+     .boxes-box .box4 {
+        text-align: center;
+          width: 45%;
+          margin: 0;
+          transition: 0.2s;
+          padding: 0;
+          border-radius: 10px;
+         border-color: rgb(226, 226, 226);
+         border-width: 2px;
+         border-style: solid;
+         box-shadow:
+         0 0 8px #fff,
+         inset 0 0 8px #fff,
+         0 0 32px rgb(255, 0, 242),
+         inset 0 0 32px rgb(255, 0, 242),
+         0 0 64px rgb(255, 0, 242),
+         inset 0 0 20px rgb(255, 0, 242);        
+         }    
+         .parrafo1::-moz-selection {
+      background-color: rgb(255, 0, 242);  
+         }
+         .parrafo1::selection {
+      background-color: rgb(255, 0, 242);
+         }
+         .parrafo1:focus {
+      outline: none;
+         }
+      

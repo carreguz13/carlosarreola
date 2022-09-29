@@ -25,7 +25,7 @@ function Navbar() {
       <a href="https://www.instagram.com/carlosarre13/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
       
       </div>
-      
+
     </div>
   )
 }

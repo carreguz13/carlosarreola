@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Myprojects.css"
-import imgpro1 from "/users/carlos/Desktop/new portfolio/carlosarreola/src/assets/toto.PNG"
-import imgpro2 from "/users/carlos/Desktop/new portfolio/carlosarreola/src/assets/sailing.PNG"
+import imgpro1 from "../../assets/toto.PNG"
+import imgpro2 from "../../assets/sailing.PNG"
 
 
 

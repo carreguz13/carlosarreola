@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Aboutme.css"
-import Picture from "/users/carlos/Desktop/new portfolio/carlosarreola/src/assets/aboutme.png"
+import Picture from "../../assets/aboutme.png"
 
 function Aboutme() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Myprojects.css"
-import imgpro1 from "../../assets/toto.PNG"
-import imgpro2 from "../../assets/sailing.PNG"
+import imgp1 from "../../assets/toto.PNG"
+
 
 
 
@@ -12,13 +12,31 @@ function Myprojects() {
 
       <h1>My projects</h1>
 
-      <h2>A selection of my best projects.</h2>
+      <h2>A selection of my projects.</h2>
 
-      <div className='img-box'>
-       <a className='primera' href="https://carlosarreola.me" target="_blanck">  <img src={imgpro1} alt="" />  </a>
-       <a className='segunda' href="https://sailingmazatlan.com/" target="_blanck">  <img src={imgpro2} alt="" />  </a>
-      
+      <div className='grid'>
 
+       <div className='project1' >
+        <div className='contentp1'>
+       <a href="https://google.com.mx"> 
+        <img className='img1' src={imgp1} alt="" />
+        </a>
+          <h5 >Portfolio react</h5>
+          <p>This is a react portfolio make with peace and love 
+            for everyone reading this 
+          </p>
+        </div>
+        </div>
+        <div className='project2'>
+       
+          <h4></h4>
+          
+        </div>
+        <div className='project3'>
+        <img src="" alt="" />
+          <h2></h2>
+          <p></p>
+        </div>
       </div>
 
     </div>

@@ -24,7 +24,7 @@ waving_hand
         </div>
       </section>
       <h1>Front-End Developer</h1>
-      <h2>Based in Sacramento, United States </h2>
+     
       <Link className='botonprofile' to="contactcontainer" spy={true} smooth={true} offset={-100} duration={1000}>Let´s work!  </Link>
       </div>
 

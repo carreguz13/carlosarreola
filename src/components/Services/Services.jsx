@@ -23,8 +23,9 @@ function Services() {
         </div>
 
         <div className='down' >
-          <p>A full knowledge of HTML/CSS and javascript. I make responsive websites and landing pages from 
-            concept through deployment.</p>
+          <p>More than 4+ years of working experience and 2+ years
+working as a front-end developer. Proven ability to collaborate effectively
+with team members and customers. Facilitating projects from concept to launch.</p>
         </div>
         </div>
 

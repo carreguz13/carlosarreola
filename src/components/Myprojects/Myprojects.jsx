@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Myprojects.css"
-import imgp1 from "../../assets/toto.PNG"
+
 
 
 
@@ -16,28 +16,50 @@ function Myprojects() {
 
       <div className='grid'>
 
-       <div className='project1' >
-        <div className='contentp1'>
-       <a href="https://google.com.mx"> 
-        <img className='img1' src={imgp1} alt="" />
-        </a>
-          <h5 >Portfolio react</h5>
-          <p>This is a react portfolio make with peace and love 
-            for everyone reading this 
-          </p>
-        </div>
-        </div>
-        <div className='project2'>
-       
-          <h4></h4>
-          
-        </div>
-        <div className='project3'>
-        <img src="" alt="" />
-          <h2></h2>
-          <p></p>
-        </div>
+<div className='p1'>
+  <a href="https://www.plenitude.mx/" target="_blank"><div className='background1'></div></a>
+  <h2>Wordpress</h2>
+</div>
+
+<div className='p1'>
+  <a href="https://carlosarreola.me/" target="_blank"><div className='background2'></div></a>
+  <h2>React.js</h2>
+</div>
+
+<div className='p1'>
+  <a href="https://heaconsultoria.com/" target="_blank"><div className='background3'></div></a>
+  <h2>Wordpress</h2>
+</div>
+
       </div>
+
+
+
+
+      <div className='grid2'>
+
+<div className='p1'>
+  <a href="https://carreguz13.github.io/Libreria/" target="_blank"><div className='background4'></div></a>
+  <h2>React.js</h2>
+</div>
+
+<div className='p1'>
+  <a href="https://conselva.org/" target="_blank"><div className='background5'></div></a>
+  <h2>Wordpress</h2>
+</div>
+
+<div className='p1'>
+  <a href="https://doctorvictorlopez.com/" target="_blank"><div className='background6'></div></a>
+  <h2>Wordpress</h2>
+</div>
+
+      </div>
+
+      
+
+
+
+
 
     </div>
   )

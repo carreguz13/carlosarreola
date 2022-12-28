@@ -31,7 +31,8 @@ function Aboutme() {
     </div>
 <div className='box4'>
     <h3>Passions</h3>
-    <p>Getting great results from what I share, learning something new every day, empowering or helping others discover what they have within themselves to help themselves</p>
+    <p>Getting great results from what I share, learning something new every
+         day, solve problems, learn more programming languages and technologies.</p>
     </div>
 
     </div>

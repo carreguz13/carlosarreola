@@ -51,7 +51,7 @@ with team members and customers. Facilitating projects from concept to launch.</
         </div>
 
         <div className='down3' >
-          <p>Verbal, written, organizational and interpersonal communication skills naturally gravitate toward working with others. </p>
+          <p>Verbal, written, organizational and interpersonal communication skills naturally gravitate towards working with others. </p>
         </div>
         </div>
         

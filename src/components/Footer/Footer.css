@@ -23,15 +23,15 @@ overflow: hidden;
 
 .footer-container h3:nth-child(1){
     display: flex;
-    width: 33%;
-    padding-left: 120px;
+    width: 20%;
+    padding-left: 40px;
     align-items: center;
     justify-content: center;
 }
 
 .footer-container h3:nth-child(2){
     display: flex;
-    width: 33%;
+    width: 30%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -39,9 +39,12 @@ overflow: hidden;
 
 .footer-container .footerinside {
     display: flex;
-    width: 33%;
+    width: 50%;
     align-items: center;
     justify-content: space-around;
-    padding: 0 120px 0 120px;
+    padding: 0 50px 0 50px;
 }
 
+.resume {
+   
+}

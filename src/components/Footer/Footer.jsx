@@ -1,16 +1,18 @@
 import React from 'react'
 import "./Footer.css"
+import pdf from "../../assets/Resume.pdf";
 
 function Footer() {
   return (
     <div className='footer-container'>
 
-        <h3>© 2022 Carlos Arreola Guzman</h3>
+        <h3>© 2023 Carlos Arreola Guzman</h3>
 
         <h3>Front-End Developer<><br /></> Mechatronic Engineer</h3>
 
 <div className='footerinside'>
 
+<a className='resume' href={pdf} download target="_blank" rel="noreferrer">Resume</a>
 
   <a href='https://github.com/carreguz13' target="_blank" rel="noreferrer">Github</a>
 

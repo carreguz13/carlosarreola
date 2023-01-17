@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e22b5212.css",
-    "main.js": "/static/js/main.e9710a41.js",
+    "main.css": "/static/css/main.d79628d5.css",
+    "main.js": "/static/js/main.88260be6.js",
     "static/media/conselva2.PNG": "/static/media/conselva2.bd8bc249572c94bca7ea.PNG",
     "static/media/plenitude.PNG": "/static/media/plenitude.ccfa3ad643e6294c3624.PNG",
-    "static/media/doctor.PNG": "/static/media/doctor.42ab01c26feae6ba5a6c.PNG",
     "static/media/hea.PNG": "/static/media/hea.a074f8c1a2835483d9b2.PNG",
     "static/media/portfoliophoto.PNG": "/static/media/portfoliophoto.fa87ca4fa90bcc5419a3.PNG",
     "static/media/libreria2.PNG": "/static/media/libreria2.b7969acdc8af45e801af.PNG",
+    "static/media/Resume.pdf": "/static/media/Resume.fc7280c485d9a0130ea5.pdf",
     "static/media/aboutme.png": "/static/media/aboutme.433a9c9b96f4684c4b31.png",
+    "static/media/angulart.PNG": "/static/media/angulart.1b57f2e7c55c75db1cfe.PNG",
     "static/media/photo.png": "/static/media/photo.5bbc0d86397c8a7a0675.png",
     "static/media/me.jpg": "/static/media/me.923d2201324b9ed59473.jpg",
     "index.html": "/index.html",
-    "main.e22b5212.css.map": "/static/css/main.e22b5212.css.map",
-    "main.e9710a41.js.map": "/static/js/main.e9710a41.js.map"
+    "main.d79628d5.css.map": "/static/css/main.d79628d5.css.map",
+    "main.88260be6.js.map": "/static/js/main.88260be6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e22b5212.css",
-    "static/js/main.e9710a41.js"
+    "static/css/main.d79628d5.css",
+    "static/js/main.88260be6.js"
   ]
 }

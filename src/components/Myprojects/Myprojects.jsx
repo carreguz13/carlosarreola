@@ -3,6 +3,27 @@ import "./Myprojects.css"
 
 
 
+//function for toggle event in buttons
+var reactSection = document.querySelector(".react-section")
+var jsSection = document.querySelector(".js-section")
+
+const react = () => {
+  reactSection.classList.toggle("show-react-section")
+  jsSection.classList.remove("show-js-section")
+ }
+
+const javascript = () => {
+  jsSection.classList.toggle("show-js-section")
+  reactSection.classList.remove("show-react-section")
+}
+
+
+
+
+
+
+
+
 
 
 function Myprojects() {
@@ -14,49 +35,24 @@ function Myprojects() {
 
       <h2>A selection of my projects.</h2>
 
-      <div className='grid'>
-
-      <div className='p1'>
-  <a href="https://carreguz13.github.io/Libreria/" target="_blank"><div className='background1'></div></a>
-  <h2>Book Register React.js</h2>
-</div>
-
-
-<div className='p1'>
-  <a href="https://carlosarreola.me/" target="_blank"><div className='background2'></div></a>
-  <h2>Portfolio React.js</h2>
-</div>
-
-<div className='p1'>
-  <a href="https://carreguz13.github.io/angular-bootstrap/" target="_blank"><div className='background3'></div></a>
-  <h2>Angular/bootstrap Template</h2>
-</div>
-
-      </div>
-
-
-
-
-      <div className='grid2'>
-
-<div className='p1'>
-  <a href="https://www.plenitude.mx/" target="_blank"><div className='background4'></div></a>
-  <h2>Wordpress Site</h2>
-</div>
-
-<div className='p1'>
-  <a href="https://conselva.org/" target="_blank"><div className='background5'></div></a>
-  <h2>Wordpress Site</h2>
-</div>
-
-<div className='p1'>
-  <a href="https://heaconsultoria.com/" target="_blank"><div className='background6'></div></a>
-  <h2>Wordpress Site</h2>
-</div>
-
-      </div>
-
+      <button className='react-btn' onClick={react}>react</button>
+      <button className='js-btn' onClick={javascript}>JavaScript</button>
       
+     
+
+     <section className='react-section'>
+<div className='p1'></div>
+<div className='p2'></div>
+<div className='p3'></div>
+<div className='p4'></div>
+     </section>
+
+     <section className='js-section'>
+<div className='p1'></div>
+<div className='p2'></div>
+<div className='p3'></div>
+<div className='p4'></div>
+     </section>
 
 
 
@@ -66,5 +62,9 @@ function Myprojects() {
   )
 }
 
-
 export default Myprojects
+
+
+
+
+

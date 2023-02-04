@@ -17,15 +17,6 @@ const javascript = () => {
   reactSection.classList.remove("show-react-section")
 }
 
-
-
-
-
-
-
-
-
-
 function Myprojects() {
   return (
 
@@ -54,11 +45,7 @@ function Myprojects() {
 <div className='p4'></div>
      </section>
 
-
-
-
-
-    </div>
+     </div>
   )
 }
 

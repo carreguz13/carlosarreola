@@ -65,10 +65,18 @@
             grid-template-rows: 1fr;
         }
 
+        .react-section .p1 {
+display: grid;
+grid-column: 1/2;
+grid-row: 1/2;
+background-color: green;
+
+        }
+
         .show-react-section {
             height: 200px;
         }
-        
+
 /*js*/
         .js-section {
             height: 0;

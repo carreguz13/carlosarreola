@@ -19,7 +19,7 @@
 }
 
 .navbar-name .nameheader {
-    
+    font-weight: 400;
     font-size: 20px;
     color: rgb(255, 255, 255);
     animation: flicker 1.5s infinite alternate;
@@ -68,6 +68,7 @@ justify-content: center;
     color: #fff;
     animation: flicker2 1.5s infinite alternate;
     animation-delay: .8s;
+    font-weight: 400;
 }
 
 
@@ -78,11 +79,11 @@ justify-content: center;
             0 0 1px #fff,
             0 0 1px #fff,
             0 0 1px #fff,
-            0 0 1px #0004ff,
-            0 0 1px #0004ff,
-            0 0 20px #0004ff,
-            0 0 5px #0004ff,
-            0 0 9px #0004ff;
+            0 0 1px #ffee00,
+            0 0 1px #ffee00,
+            0 0 20px #ffee00,
+            0 0 5px #ffee00,
+            0 0 9px #ffee00;
         }
         20%, 24%, 55% {        
             text-shadow: none;
@@ -93,15 +94,16 @@ justify-content: center;
             cursor: pointer;
             font-size: 17px;
             color: #fff;
+            font-weight: 400;
             text-shadow:
                     0 0 1px #fff,
                     0 0 1px #fff,
                     0 0 1px #fff,
-                    0 0 1px #ff1a00,
-                    0 0 1px #ff1a00,
-                    0 0 20px #ff1a00,
-                    0 0 5px #ff1a00,
-                    0 0 9px #ff1a00;
+                    0 0 1px #ffee00,
+                    0 0 1px #ffee00,
+                    0 0 20px #ffee00,
+                    0 0 5px #ffee00,
+                    0 0 9px #ffee00;
                 }
 
                 .navbar-menu .aprojects {
@@ -109,15 +111,16 @@ justify-content: center;
                     padding: 0 10px;
                     font-size: 17px;
                     color: #fff;
+                    font-weight: 400;
                     text-shadow:
                             0 0 1px #fff,
                             0 0 1px #fff,
                             0 0 1px #fff,
-                            0 0 1px #00e5ff,
-                            0 0 1px #00e5ff,
-                            0 0 20px #00e5ff,
-                            0 0 5px #00e5ff,
-                            0 0 9px #00e5ff;
+                            0 0 1px #ffee00,
+                            0 0 1px #ffee00,
+                            0 0 20px #ffee00,
+                            0 0 5px #ffee00,
+                            0 0 9px #ffee00;
                         }
 
                         .navbar-menu .aservices {
@@ -125,15 +128,16 @@ justify-content: center;
                             font-size: 17px;
                             color: #fff;
                             cursor: pointer;
+                            font-weight: 400;
                             text-shadow:
                                     0 0 1px #fff,
                                     0 0 1px #fff,
                                     0 0 1px #fff,
-                                    0 0 1px #ff00ff,
-                                    0 0 1px #ff00ff,
-                                    0 0 20px #ff00ff,
-                                    0 0 5px #ff00ff,
-                                    0 0 9px #ff00ff;
+                                    0 0 1px #ffee00,
+                                    0 0 1px #ffee00,
+                                    0 0 20px #ffee00,
+                                    0 0 5px #ffee00,
+                                    0 0 9px #ffee00;
                                 }
 
 .navbar-icons {

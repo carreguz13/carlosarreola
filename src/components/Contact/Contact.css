@@ -16,6 +16,7 @@ background: linear-gradient(to right, #000, rgb(4, 8, 44));
     padding: 0 0 10px 0;
     animation: flicker70 1.5s infinite alternate;
     animation-delay: .3s;
+    font-weight: 400;
     
  }
 
@@ -26,11 +27,11 @@ background: linear-gradient(to right, #000, rgb(4, 8, 44));
                                      0 0 1px #fff,
                                      0 0 1px #fff,
                                      0 0 1px #fff,
-                                     0 0 1px #ff00ff,
-                                     0 0 1px #ff00ff,
-                                     0 0 20px #ff00ff,
-                                     0 0 5px #ff00ff,
-                                     0 0 9px #ff00ff
+                                     0 0 1px #ffd900,
+                                     0 0 1px #ffd900,
+                                     0 0 20px #ffd900,
+                                     0 0 5px #ffd900,
+                                     0 0 9px #ffd900
                                   }
                                   20%, 24%, 55% {        
                                       text-shadow: none;
@@ -40,7 +41,7 @@ background: linear-gradient(to right, #000, rgb(4, 8, 44));
 
 
 .con-container h2 {
-    font-size: 70px;
+    font-size: 40px;
     color: #fff;
  margin: 0;
  }
@@ -70,6 +71,7 @@ background: linear-gradient(to right, #000, rgb(4, 8, 44));
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0 25px 0 0px;
+    
     text-shadow:
     0 0 1px #fff,
     0 0 1px #fff,
@@ -86,6 +88,7 @@ background: linear-gradient(to right, #000, rgb(4, 8, 44));
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0 25px 0 50px;
+    
     text-shadow:
     0 0 1px #fff,
     0 0 1px #fff,

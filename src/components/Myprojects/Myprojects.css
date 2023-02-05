@@ -20,6 +20,7 @@
         animation-delay: .5s;
         margin: 0;
         padding: 0px 0 10px 0;
+        font-weight: 400;
         
         
      }
@@ -30,11 +31,11 @@
                                          0 0 1px #fff,
                                          0 0 1px #fff,
                                          0 0 1px #fff,
-                                          0 0 1px #2bff00,
-                                        0 0 1px #2bff00,
-                                         0 0 20px #2bff00,
-                                         0 0 5px #2bff00,
-                                         0 0 9px #2bff00;
+                                          0 0 1px #ffd900,
+                                        0 0 1px #ffd900,
+                                         0 0 20px #ffd900,
+                                         0 0 5px #ffd900,
+                                         0 0 9px #ffd900;
                                       }
                                       20%, 24%, 55% {        
                                           text-shadow: none;
@@ -44,7 +45,7 @@
     
         
     .p-container h2 {
-        font-size: 60px;
+        font-size: 40px;
         color: #fff;
         margin: 0;
         padding: 0 0 20px 0;
@@ -56,28 +57,105 @@
 /*react*/
         .react-section {
             height: 0;
-            width: 70%;
+            width: 90%;
             overflow: hidden;
             transition: 0.2s ease; 
-            background-color: red;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr;
+            column-gap: 40px;
+            padding: 80px 80px 0 80px;
+
+        }
+        .show-react-section {
+            height: 300px;
+           
         }
 
         .react-section .p1 {
-display: grid;
-grid-column: 1/2;
-grid-row: 1/2;
-background-color: green;
-
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin: 0;
+            padding: 10px;
+            row-gap: 15px;
+            
         }
 
-        .show-react-section {
-            height: 200px;
+        .react-section .p1 img {
+            width: 100%;
+            height: auto;
+            border: solid #ffff 3px;
+            border-radius: 12px;
+            margin: 0;       
+            transition: 0.2s ;    
+   }  
+   .react-section .p1 img:hover{
+    scale: 1.1;
+
+}
+           
+        .react-section .p1 h3 {
+            font-size: 22px;
+            color: #fff;
+           margin: 0;
+           text-shadow:
+                    0 0 1px #fff,
+                    0 0 1px #fff,
+                    0 0 1px #fff,
+                    0 0 1px #ff1a00,
+                    0 0 1px #ff1a00,
+                    0 0 20px #ff1a00,
+                    0 0 5px #ff1a00,
+                    0 0 9px #ff1a00;
+        }
+        .react-section .p1 p {
+            font-size: 15px;
+            color: #fff;
+            margin: 0;
         }
 
-/*js*/
+        .react-section .p2 img {
+            width: 100%;
+            height: auto;
+            transition: 0.2s ;
+        }
+        .react-section .p2 img:hover{
+            scale: 1.1;
+      cursor: default;
+        }
+        .react-section .p2 h3 {
+            font-size: 12px;
+        }
+        .react-section .p2 p {
+            font-size: 10px;
+        }
+
+        .react-section .p3 img {
+            width: 100%;
+            height: auto;
+        }
+        .react-section .p3 h3 {
+            font-size: 12px;
+        }
+        .react-section .p3 p {
+            font-size: 10px;
+        }
+
+        .react-section .p4 img {
+            width: 100%;
+            height: auto;
+        }
+        .react-section .p4 h3 {
+            font-size: 12px;
+        }
+        .react-section .p4 p {
+            font-size: 10px;
+        }
+
+      /*js*/
         .js-section {
             height: 0;
             width: 70%;

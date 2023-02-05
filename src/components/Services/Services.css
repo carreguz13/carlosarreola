@@ -25,6 +25,7 @@
 
 .services-first h1 {
    font-size: 25px;
+   font-weight: 400;
    color: rgb(255, 255, 255);
    margin: 0;
    padding: 0 0 20px 0;
@@ -39,11 +40,11 @@
                                     0 0 1px #fff,
                                     0 0 1px #fff,
                                     0 0 1px #fff,
-                                    0 0 1px #ff0000,
-                                    0 0 1px #ff0000,
-                                    0 0 20px #ff0000,
-                                    0 0 5px #ff0000,
-                                    0 0 9px #ff0000;
+                                    0 0 1px #ffd900,
+                                    0 0 1px #ffd900,
+                                    0 0 20px #ffd900,
+                                    0 0 5px #ffd900,
+                                    0 0 9px #ffd900;
                                  }
                                  20%, 24%, 55% {        
                                      text-shadow: none;
@@ -52,7 +53,7 @@
 }
 
 .services-first h2 {
-   font-size: 60px;
+   font-size: 40px;
    color: #fff;
 margin: 0;
 }
@@ -180,17 +181,17 @@ padding: 15px 30px 15px 30px;
     box-shadow:
    0 0 8px #fff,
    inset 0 0 8px #fff,
-   0 0 32px rgb(0, 225, 255),
-   inset 0 0 32px rgb(0, 225, 255),
-   0 0 64px rgb(0, 225, 255),
-   inset 0 0 20px rgb(0, 225, 255); 
+   0 0 32px rgb(0, 38, 255),
+   inset 0 0 32px rgb(0, 38, 255),
+   0 0 64px rgb(0, 38, 255),
+   inset 0 0 20px rgb(0, 38, 255); 
    }
    
 .parrafo2::-moz-selection {
-   background-color: rgb(0, 225, 255);  
+   background-color: rgb(0, 38, 255);  
       }
       .parrafo2::selection {
-   background-color: rgb(0, 225, 255);
+   background-color: rgb(0, 38, 255);
       }
       .parrafo2:focus {
    outline: none;
@@ -241,16 +242,16 @@ padding: 15px 30px 15px 30px;
    box-shadow:
    0 0 8px #fff,
    inset 0 0 8px #fff,
-   0 0 32px rgb(255, 0, 242),
-   inset 0 0 32px rgb(255, 0, 242),
-   0 0 64px rgb(255, 0, 242),
-   inset 0 0 20px rgb(255, 0, 242);        
+   0 0 32px rgb(0, 38, 255),
+   inset 0 0 32px rgb(0, 38, 255),
+   0 0 64px rgb(0, 38, 255),
+   inset 0 0 20px rgb(0, 38, 255);        
    }    
    .parrafo3::-moz-selection {
-background-color: rgb(255, 0, 242);  
+background-color: rgb(0, 38, 255);  
    }
    .parrafo3::selection {
-background-color: rgb(255, 0, 242);
+background-color: rgb(0, 38, 255);
    }
    .parrafo3:focus {
 outline: none;

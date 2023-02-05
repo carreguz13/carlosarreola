@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Myprojects.css"
-import heaimg from "../../assets/hea.PNG"
-
+import portimg from "../../assets/port.PNG"
+import libreriaimg from "../../assets/libreria.PNG"
 
 
 //functions for every buton and make toggle possible 
@@ -36,22 +36,22 @@ function Myprojects() {
 
      <section className='react-section'>
 <div className='p1'>
-  <a href="https://google.com" target="_blank"><img src={heaimg} alt="" /></a>
+  <a href="https://carlosarreola.me/" target="_blank"><img src={portimg} alt="" /></a>
   <h3>Portfolio</h3>
   <p>This is my portfolio web when I show some projects and a share a little bit about me.</p>
 </div>
 <div className='p2'>
-<img src={heaimg} alt="" />
-  <h3>Portfolio</h3>
-  <p>This is my portfolio web when I show some projects and a share a little bit about me.</p>
+<a href="https://carreguz13.github.io/Libreria/" target="_blank"><img src={libreriaimg} alt="" /></a>
+  <h3>Library</h3>
+  <p>Application to save, edit and delete book information.</p>
 </div>
 <div className='p3'>
-<img src={heaimg} alt="" />
+<img src={portimg} alt="" />
   <h3>Portfolio</h3>
   <p>This is my portfolio web when I show some projects and a share a little bit about me.</p>
 </div>
 <div className='p4'>
-<img src={heaimg} alt="" />
+<img src={portimg} alt="" />
   <h3>Portfolio</h3>
   <p>This is my portfolio web when I show some projects and a share a little bit about me.</p>
 </div>

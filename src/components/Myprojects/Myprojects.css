@@ -59,7 +59,7 @@
             height: 0;
             width: 90%;
             overflow: hidden;
-            transition: 0.2s ease; 
+            transition: 0.5s; 
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr;
@@ -80,26 +80,27 @@
             grid-row: 1/2;
             margin: 0;
             padding: 10px;
-            row-gap: 15px;
+            row-gap: 10px;
             
         }
 
         .react-section .p1 img {
             width: 100%;
-            height: auto;
-            border: solid #ffff 3px;
+            height: 130px;
+            border: solid #ffff 2px;
             border-radius: 12px;
             margin: 0;       
-            transition: 0.2s ;    
+            transition: 0.2s ;  
+            object-fit: cover;  
    }  
    .react-section .p1 img:hover{
     scale: 1.1;
-
-}
+    }
            
         .react-section .p1 h3 {
-            font-size: 22px;
+            font-size: 20px;
             color: #fff;
+            font-weight: 400;
            margin: 0;
            text-shadow:
                     0 0 1px #fff,
@@ -117,56 +118,67 @@
             margin: 0;
         }
 
+        .react-section .p2{
+        display: flex;
+            flex-direction: column;
+            align-items: start;
+            grid-column: 2/3;
+            grid-row: 1/2;
+            margin: 0;
+            padding: 10px;
+            row-gap: 10px;
+        }
         .react-section .p2 img {
             width: 100%;
-            height: auto;
-            transition: 0.2s ;
+            height: 130px;
+            object-fit: cover;
+            border: solid #ffff 2px;
+            border-radius: 12px;
+            margin: 0;       
+            transition: 0.2s ;  
         }
         .react-section .p2 img:hover{
             scale: 1.1;
-      cursor: default;
+     
         }
         .react-section .p2 h3 {
-            font-size: 12px;
+            font-size: 20px;
+            color: #fff;
+            font-weight: 400;
+           margin: 0;
+           text-shadow:
+                    0 0 1px #fff,
+                    0 0 1px #fff,
+                    0 0 1px #fff,
+                    0 0 1px #ff1a00,
+                    0 0 1px #ff1a00,
+                    0 0 20px #ff1a00,
+                    0 0 5px #ff1a00,
+                    0 0 9px #ff1a00;
         }
         .react-section .p2 p {
-            font-size: 10px;
+            font-size: 15px;
+            color: #fff;
+            margin: 0;
         }
 
-        .react-section .p3 img {
-            width: 100%;
-            height: auto;
+        .react-section .p3, .p4 {
+            display: none;
         }
-        .react-section .p3 h3 {
-            font-size: 12px;
-        }
-        .react-section .p3 p {
-            font-size: 10px;
-        }
-
-        .react-section .p4 img {
-            width: 100%;
-            height: auto;
-        }
-        .react-section .p4 h3 {
-            font-size: 12px;
-        }
-        .react-section .p4 p {
-            font-size: 10px;
-        }
-
+        
       /*js*/
         .js-section {
             height: 0;
-            width: 70%;
+            width: 90%;
             overflow: hidden;
-            transition: 0.2s ease; 
-            background-color: yellow;
+            transition: 2s ease; 
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr;
+            column-gap: 40px;
+            padding: 80px 80px 0 80px;
         }
         
         .show-js-section {
-            height: 200px;
+            height: 300px;
         }

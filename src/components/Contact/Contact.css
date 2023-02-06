@@ -207,17 +207,6 @@ background: linear-gradient(to right, #000, rgb(4, 8, 44));
  }
 
 .center input:hover {
-    font-size: 17px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    padding: 13px 25px;
-    background-color: rgba(7, 7, 7, 0.363);
-    box-shadow: 4px 4px 10px rgb(255, 0, 0), -4px -4px 10px rgb(255, 0, 0);
-    margin: -65px 180px 0px 180px ;
-  border-radius: 50px;
-cursor: pointer;
+    cursor: pointer;
 scale: 1.1;
 }

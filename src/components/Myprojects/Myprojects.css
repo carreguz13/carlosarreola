@@ -7,6 +7,7 @@
     width: 100%;
     height: auto;
     background: linear-gradient(to right, #000, rgb(4, 8, 44));
+    padding: 0 0 200px 0;
    
     }
     
@@ -86,10 +87,48 @@
             color: #fff;
             margin: 0;
         }
+        .btncontainer {
+            display: flex;
+            column-gap: 30px;
+            padding: 30px 0 50px 0;
+        }
+
+        .p-container button {
+font-size: 17px;
+border-color: blue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 5px 20px;
+    background-color: rgba(7, 7, 7, 0.363);
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px blue, -4px -4px 10px blue;
+  transition: .2s ease-in-out;
+}
+
+.p-container button:hover {
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0.786);
+color: #000;
+font-weight: 500;
+}
+.p-container button:active {
+    cursor: pointer;
+    background-color: rgb(163, 163, 166);
+    }
+
+    .p-container button:focus {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.786);
+color: #000;
+font-weight: 500;
+        }
 
 
 
-    
+
 /*sections for buttons*/
 /*react**************************************************************************************/
         .react-section {

@@ -12,7 +12,6 @@ import angularimg from "../../assets/angular.PNG"
 
 
 
-
 //functions for every buton and make toggle possible 
 function react (){
   var reactSection = document.querySelector(".react-section")
@@ -72,8 +71,8 @@ function Myprojects() {
       <h1>My projects</h1>
 
       <h2>A selection of my projects.</h2>
-<div>
-      <button className='react-btn' onClick={react}>react</button>
+<div className='btncontainer'>
+      <button className='react-btn' onClick={react}>React</button>
       <button className='js-btn' onClick={javaScript}>JavaScript</button>
       <button className='angular-btn' onClick={angular}>Angular</button>
       <button className='vue-btn' onClick={vue}>Vue</button>

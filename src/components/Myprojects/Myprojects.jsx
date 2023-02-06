@@ -6,6 +6,8 @@ import flipperimg from "../../assets/flipper.PNG"
 import counterimg from "../../assets/counter.PNG"
 import reviewsimg from "../../assets/reviews.PNG"
 import navbarimg from "../../assets/navbar.PNG"
+import angularimg from "../../assets/angular.PNG"
+
 
 
 
@@ -15,15 +17,50 @@ import navbarimg from "../../assets/navbar.PNG"
 function react (){
   var reactSection = document.querySelector(".react-section")
   var jsSection = document.querySelector(".js-section")
+  var angularSection = document.querySelector(".angular-section")
+  var vueSection = document.querySelector(".vue-section")
+
     reactSection.classList.toggle("show-react-section")
     jsSection.classList.remove("show-js-section")
+    angularSection.classList.remove("show-angular-section")
+    vueSection.classList.remove("show-vue-section")
 }
 
 function javaScript (){
   var jsSection = document.querySelector(".js-section")
   var reactSection = document.querySelector(".react-section")
+  var angularSection = document.querySelector(".angular-section")
+  var vueSection = document.querySelector(".vue-section")
+
   jsSection.classList.toggle("show-js-section")
   reactSection.classList.remove("show-react-section")
+  angularSection.classList.remove("show-angular-section")
+  vueSection.classList.remove("show-vue-section")
+
+}
+
+function angular (){
+  var jsSection = document.querySelector(".js-section")
+  var reactSection = document.querySelector(".react-section")
+  var angularSection = document.querySelector(".angular-section")
+  var vueSection = document.querySelector(".vue-section")
+
+  jsSection.classList.remove("show-js-section")
+  reactSection.classList.remove("show-react-section")
+  angularSection.classList.toggle("show-angular-section")
+  vueSection.classList.remove("show-vue-section")
+}
+
+function vue (){
+  var jsSection = document.querySelector(".js-section")
+  var reactSection = document.querySelector(".react-section")
+  var angularSection = document.querySelector(".angular-section")
+  var vueSection = document.querySelector(".vue-section")
+
+  jsSection.classList.remove("show-js-section")
+  reactSection.classList.remove("show-react-section")
+  angularSection.classList.remove("show-angular-section")
+  vueSection.classList.toggle("show-vue-section")
 }
 
 
@@ -38,6 +75,9 @@ function Myprojects() {
 <div>
       <button className='react-btn' onClick={react}>react</button>
       <button className='js-btn' onClick={javaScript}>JavaScript</button>
+      <button className='angular-btn' onClick={angular}>Angular</button>
+      <button className='vue-btn' onClick={vue}>Vue</button>
+
       </div>
      
 
@@ -81,6 +121,32 @@ function Myprojects() {
 </div>
      </section>
      
+
+
+     <section className='angular-section'>
+<div className='p9'>
+  <a href="https://carreguz13.github.io/angular-bootstrap/" target="_blank" rel='noreferrer'><img src={angularimg} alt="" /></a>
+  <h3>Angular template</h3>
+  <p>Angular template site with 3 pages and bootstrap components</p>
+</div>
+<div className='p10'></div>
+<div className='p11'></div>
+<div className='p12'></div>
+     </section>
+
+
+
+
+     <section className='vue-section'>
+<div className='p13'></div>
+<div className='p14'></div>
+<div className='p15'></div>
+<div className='p16'></div>
+     </section>
+
+
+
+
      </div>
      
   )

@@ -101,6 +101,7 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr;
             column-gap: 40px;
+            padding: 0 20px;
            }
     
 
@@ -145,7 +146,8 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr;
             column-gap: 40px;
-           
+            padding: 0 20px;
+
         }
 
         .show-js-section {
@@ -197,4 +199,48 @@
                     row-gap: 10px;
                 }
 /*Angular***************************************************************************/    
-            
+.angular-section {
+    height: 0;
+    width: 90%;
+    overflow: hidden;
+    transition: 0.5s; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    padding: 0 20px;
+
+}
+
+.show-angular-section {
+    height: 300px;
+}
+
+.angular-section .p9 {
+    display: flex;
+            flex-direction: column;
+            align-items: start;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            margin: 0;
+            padding: 10px;
+            row-gap: 10px;
+}
+
+/*Vue***************************************************************************/    
+.vue-section {
+    height: 0;
+    width: 90%;
+    overflow: hidden;
+    transition: 0.5s; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    padding: 0 20px;
+
+}
+
+.show-vue-section {
+    height: 300px;
+}
